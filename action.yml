@@ -1,0 +1,16 @@
+name: 'Deploy CLI'
+description: 'Deploy CLI line tool, add it to the PATH and configure authentication'
+author: 'hugh.li'
+
+inputs:
+  ssh_private_key:
+    required: false
+    description: 'Private Key of ssh'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+
+branding:
+  icon: 'cloud-lightning'
+  color: 'orange'

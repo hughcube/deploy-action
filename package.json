@@ -1,0 +1,13 @@
+{
+  "name": "deploy-action",
+  "version": "1.0.0",
+  "description": "GitHub Action used to setup Deploy CLI",
+  "main": "index.js",
+  "author": "hugh.li <hugh.li@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/exec": "^1.0.1",
+    "@actions/tool-cache": "^1.1.2"
+  }
+}
