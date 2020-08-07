@@ -23,8 +23,6 @@ steps:
         ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "date"
 ```
 
-Use `aliyun.exe` if job runs on Windows.
-
 ## License
 
 MIT
